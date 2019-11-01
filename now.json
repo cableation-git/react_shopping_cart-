@@ -1,5 +1,11 @@
 {
-  "name": "reactreserve",
-  "alias": "<insert-your-alias>.now.sh",
-  "version": 1
+  "name": "jonsreactsc",
+  "alias": "jonsreactsc.now.sh",
+  "version": 1,
+  "env": {
+    "MONGO_SRV": "mongodb+srv://JonCable:W3st3r0s@reactreserve-foert.mongodb.net/test?retryWrites=true&w=majority",
+    "JWT_SECRET": "vikingagedrama",
+    "CLOUDINARY_URL": "https://api.cloudinary.com/v1_1/dqx7mge2u/image/upload",
+    "STRIPE_SECRET_KEY": "sk_test_VTThjpfuM10TWHvUEWwYnL1t00yCsE84mr"
+  }
 }
